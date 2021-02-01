@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="principal-content">
+  <header class="header">
+    <div class="header-wrapper">
+      <nav class="navbar">
+        <button class="button-header">
+          <a>Ver lista completa</a>
+        </button>
+        <button class="button-header">
+          <a>Cadastrar</a>
+        </button>
+      </nav>
+    </div>
+  </header>
+  <main class="main-wrapper">
+    <h1 class="principal-title">Cadastre aqui os funcionários da sua empresa!</h1>
+    <form class="form-wrapper">
+        
+
+        <!-- <div class="input-wrapper">
+          <input type="text" pattern=".+" class="input"/>
+          <label class="label">Nome completo (sem abreviações)</label>
+        </div> -->
+
+          <div class="input-container">
+            <input id="name" class="input" type="text" required />
+            <label class="label" for="name">Nome completo (sem abreviações)</label>
+          </div>
+
+          <div class="input-container">
+            <input id="email" class="input" type="email" required />
+            <label class="label" for="email">E-mail</label>
+          </div>
+
+          <div class="input-container">
+            <input id="cpf" class="input" type="text" required />
+            <label class="label" for="cpf">CPF</label>
+          </div>
+
+          <div class="input-container">
+            <input id="telefone" class="input" type="text" required />
+            <label class="label" for="telefone">Telefone</label>
+          </div>
+
+          <button class="button-form">Cadastrar</button>
+
+    </form>
+  </main>
+</body>
+</html>
