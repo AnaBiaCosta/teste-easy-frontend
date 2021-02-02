@@ -5,3 +5,83 @@
   margin: 0;
   font-family: 'Montserrat', sans-serif;
 }
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+button {
+  border: none;
+  background: none;
+  font-weight: 800;
+  border-radius: 24px;
+  padding: 12px 30px;
+  cursor: pointer;
+}
+
+
+/* page container */
+.main-wrapper {
+  display: flex;
+  min-width: 1335px;
+  max-width: 1335px;
+  margin: 36px 50px;
+}
+
+.principal-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 85vh;
+  width: 100vw;
+}
+
+.principal-info {
+  width: 45%;
+  box-sizing: border-box;
+}
+
+.ilustration {
+  width: 55%;
+  height: 85vh;
+  box-sizing: border-box;
+}
+
+
+/* titles */
+.principal-title {
+  font-weight: 800;
+  font-size: 36px;
+  width: 612px;
+  margin-bottom: 36px;
+}
+
+
+/* header */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0;
+  background-color: #00C8B3;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  width: 1335px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 335px;
+  height: 40px;
+}
+
+.button-header {
+  color: #333;
+  background-color: #FFF;
+}
