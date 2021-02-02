@@ -1,0 +1,28 @@
+/* card */
+.person-card {
+  width: 430px;
+  border: 1px solid #333;
+  border-radius: 24px;
+  padding: 24px;
+}
+
+/* title */
+.card-title {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.label-field {
+  font-weight: 800;
+  margin: 0 8px;
+}
+
+.field {
+  display: flex;
+  font-size: 12px;
+  margin-bottom: 16px;
+}
+
+.field:last-child {
+  margin-bottom: 0;
+}
