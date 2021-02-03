@@ -85,3 +85,7 @@ button {
   color: #333;
   background-color: #FFF;
 }
+
+.button-header:hover {
+  opacity: 90%;
+}
